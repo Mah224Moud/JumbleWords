@@ -1,10 +1,9 @@
-
 # Jumble Words
 
 ### Bienvenue sur Jumble Words
 Jumble est un petit jeu qui permet de deviner des mots générer aléatoirement.
 
-A la base, ce jeu a été fait sur console en `C++` d'ailleurs disponible [ici](https://github.com/Mah224Moud/Jumble).
+A la base, ce jeu a été fait sur console en `C++` d'ailleurs disponible [ici](https://github.com/Mah224Moud/Jumble-console).
 Cette nouvelle version de `Jumble Words` a été faite en `Java` à l'aide de `Java Swing` sur `Netbeans`.
 
 ## Explication de l'interface du jeu
@@ -34,7 +33,7 @@ Le `Mot à deviner` et `Nombre d'essais` (restant);
 - Attention le programme est sensible à la casse. Tous les mots à deviner sont en majuscule donc les `Mot à essayer` doivent aussi être majuscules.
 ### Mots à deviner
 Pour l'instant, nous avons plus d'une centaine de mots à deviner ;)
-## Author
+## Createur
 
 - [@Mah224Moud](https://www.github.com/Mah224Moud)
 

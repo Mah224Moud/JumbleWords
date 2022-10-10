@@ -32,8 +32,55 @@ Le `Mot à deviner` et `Nombre d'essais` (restant);
 - Vous pouvez `Recommencer` une partie à tout moment. D'ailleurs un clic sur ce bouton remet tout à nouveau (`Nombre d'essai` à 5, change le `Mot de deviner` et efface les `Zones de textes`).
 - Attention le programme est sensible à la casse. Tous les mots à deviner sont en majuscule donc les `Mot à essayer` doivent aussi être majuscules.
 ### Mots à deviner
-Pour l'instant, nous avons plus d'une centaine de mots à deviner ;)
-## Createur
+Pour l'instant, nous avons plus d'une centaine de mots à deviner ;).
+
+## Installation
+Avant tout, cloner le projet JumbleWords avec toutes ses dépendances. `Jumble.jar` et le répertoire `lib` intact.
+### Windows
+Télecharger et installer JRE ou JDK sur le site officiel d'[Oracle](https://www.oracle.com/java/technologies/downloads/#jdk19-windows). Pensez à télécharger le bon package suivant la configuration de votre machine.
+Une fois le JRE ou JDK installer, [mettre la variable d'environnement](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB)
+
+Vous pouvez tester l'installion sur le terminal avec
+```bash
+java -version
+```
+
+### Mac
+Installer `homebrew` si vous ne l'avez pas
+```bash
+sudo apt-get update
+```
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Ensuite installer java
+```bash
+brew install openjdk
+```
+Pour finir, actualiser le chemin
+```bash
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+```
+Vous pouvez tester l'installion avec
+```bash
+java --version
+```
+
+### Linux
+```bash
+sudo apt-get update
+```
+```bash
+sudo apt-get install javac
+```
+```bash
+sudo apt-get install java
+```
+Vous pouvez tester l'installion avec
+```bash
+java --version
+```
+## Créateur
 
 - [@Mah224Moud](https://www.github.com/Mah224Moud)
 
